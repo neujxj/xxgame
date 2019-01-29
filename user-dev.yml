@@ -15,4 +15,6 @@ spring:
     host: 192.168.1.51
     port: 6379
 server:
-  port: 8090
+    port: 8090
+user:
+    test: test
