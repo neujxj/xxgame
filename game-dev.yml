@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.1.51/ala_game_db?characterEncoding=utf-8&useSSl=false
+  jpa:
+    show-sql: true
+  rabbitmq:
+    host: 192.168.1.51
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    host: 192.168.1.51
+    port: 6379
+server:
+    port: 9090
+user:
+    test: test
