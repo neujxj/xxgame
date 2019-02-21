@@ -11,6 +11,6 @@ server:
     port: 9000
 zuul:
   routes:
-    player:
-      path: /player/**
-      serviceId: user
+    user: /player/**
+  ignored-patterns:
+    - /config/**
